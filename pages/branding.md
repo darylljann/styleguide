@@ -71,7 +71,7 @@ We use [Proxima Nova](http://www.marksimonson.com/fonts/view/proxima-nova) for a
 ![](../images/proxima.png)
 
 ### Alternative to Proxima Nova
-``` css
+```css
 body {
     font-family: proxima-nova, Helvetica, Arial, sans-serif;
 }
@@ -123,7 +123,7 @@ Good | Off-brand
 --- | ---
 ![](../images/borders-good.png)  | ![](../images/borders-off.png)
 
-```
+```css
 selector {
   border: 1px solid #d8d8d8;
 }
@@ -143,7 +143,7 @@ Good | Off-brand
 ![](../images/tabs-good.png) | ![](../images/tabs-off.png)
 
 #### Active tab
-``` css
+```css
 .active-tab {
   background-color: #fff;
   color: #18304b;
@@ -155,7 +155,7 @@ Good | Off-brand
 ```
 
 #### Inactive tab
-``` css
+```css
 .inactive-tab {
   background-color: #e5e5e5;
 }
