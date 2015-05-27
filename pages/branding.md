@@ -123,9 +123,9 @@ TBC
 
 ### Borders
 
-Good | Off-brand
---- | ---
-![](../images/borders-good.png)  | ![](../images/borders-off.png)
+![](./images/border-good.png)
+
+![](./images/border-bad.png)
 
 ```css
 selector {
