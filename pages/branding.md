@@ -94,13 +94,49 @@ bold | 600
 <a name="examples"></a>
 ## UI Examples
 
+### Borders
+
+Good | Off-brand
+--- | ---
+![](../images/borders-good.png)  | ![](../images/borders-off.png)
+
+```
+selector {
+	border: 1px solid #d8d8d8;
+}
+```
+
 ### Iconography
 
 Good | Off-brand
 --- | ---
 ![](../images/icon-01-good.png) | ![](../images/icon-01-off.png)
-![](../images/icon-02-good.png) | ![](../images/icon-02-off.png)
-![](../images/icon-03-good.png) | ![](../images/icon-03-off.png)
+
+### Tabs
+Good | Off-brand
+--- | ---
+![](../images/tabs-good.png) | ![](../images/tabs-off.png)
+
+#### Active tab
+``` css
+.active-tab {
+  background-color: #fff;
+  color: #18304b;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 15px;
+  text-align: center;
+}
+```
+
+#### Inactive tab
+``` css
+.inactive-tab {
+    background-color: #e5e5e5;
+    padding: 8px 15px;
+    position: relative;
+}
+```
 
 ### Tables
 
