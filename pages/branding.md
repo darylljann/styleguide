@@ -122,9 +122,7 @@ TBC
 ## 9. Examples
 
 ### Borders
-
 ![](./images/borders-good.png) ![](./images/borders-bad.png)
-
 
 ```css
 selector {
