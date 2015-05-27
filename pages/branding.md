@@ -65,6 +65,8 @@ Colour | Name | Hex | Used in
 
 We use [Proxima Nova](http://www.marksimonson.com/fonts/view/proxima-nova) for all of our text and headings.
 
+![](../images/proxima.png)
+
 ### Alternative to Proxima Nova
 ``` css
 body {
