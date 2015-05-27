@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript Guidelines
 
 The following document outlines a how developers at finder.com.au write JavaScript to ensure all work is reliable and consistent.
 

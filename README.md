@@ -8,3 +8,5 @@ The primary purpose of these documents is to ensure code consistency and best pr
 * [Browser Support](./pages/browser-support.md)
 * [CSS](./pages/css.md)
 * [JavaScript](./pages/js.md)
+
+To help start a new project we've also got the [Project Boilerplate](https://github.com/finderau/project-boilerplate)
