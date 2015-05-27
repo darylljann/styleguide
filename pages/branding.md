@@ -1,45 +1,50 @@
 # Branding
 
+* We use [flat design](http://www.hongkiat.com/blog/flat-design-resources/) elements as part of our design aesthetics
+* Do not use gradients
+
 ## What colours should I use?
 
 We have two brand colours. These should be used sparingly and not be used in very large blocks of colours.
 
 ### Brand Colours
-Primary #1591fe - Icons, highlight
 
-Secondary #18304b - Main headings, navigation, icons
+Name | Colour (Hex) | Used in
+--- | --- | ---
+Primary | #1591fe | Icons, highlight ![]()
+Secondary | #18304b | Main headings, navigation, icons
 
 ### Grey tones
 For consistency, we try to use these greyscale values throughout our interfaces.
 
-Body #010101 - body content
-
-Disclaimers #777 - disclaimers
-
-Box 1 - #e5e5e5 - boxes
-
-Box 2 - #f5f5f5 - boxes
+Name | Colour (Hex) | Used in
+--- | --- | ---
+Body | #010101 | Body content
+Disclaimers | #777 | Disclaimers
+Box 1 | #e5e5e5 | Boxes
+Box 2 | #f5f5f5 | Boxes
 
 ### Call to Action
 
-Green #27ae60 - Primary call to action buttons
-
-Orange #f17935 - Text links, hover state and  more info buttons
+Name | Colour (Hex) | Used in
+--- | --- | ---
+Green | #27ae60 | Primary call to action buttons
+Orange | #f17935 | Text links, hover state and  more info buttons
 
 
 ### Blue tones
 
-Light blue e6f3ff - Backgrounds when more prominence is needed vs a grey background
-
-Mid blue #d0e9ff - Dividing lines on light blue background, froms and tooltips 
-
-Dark blue #0076cc Links and comparison tables
+Light blue | e6f3ff | Backgrounds when more prominence is needed vs a grey background
+Mid blue | #d0e9ff | Dividing lines on light blue background, froms and tooltips 
+Dark blue | #0076cc | Links and comparison tables
 
 ### System
 These are not part of our brand, but we use these in special cases.
 
-Red #dd4b39 - Error messages
-Yellow #dd4b39 - Warning messages
+Name | Colour (Hex) | Used in
+--- | --- | ---
+Red | #dd4b39 | Error messages
+Yellow | #dd4b39 | Warning messages
 
 
 ## What fonts should I use?
