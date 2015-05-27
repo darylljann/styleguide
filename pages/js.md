@@ -1,5 +1,11 @@
 # JavaScript
 
+The following document outlines a how developers at finder.com.au write JavaScript to ensure all work is reliable and consistent.
+
+This is a living document and new ideas are always welcome. Please contribute.
+
+## Table of contents
+
 1. [Supported Libraries](#supported-libraries)
 2. [Validation](#validation)
 3. [Naming Conventions](#naming-conventions)
@@ -9,17 +15,19 @@
 
 Name | Version
 --- | --- 
-Handlebars | 1.3.0
+Barebones Share Buttons | 0.2.0
 Enquire | 2.1.2
+Handlebars | 1.3.0
 jQuery | 1.7.2
 jQuery Validation | 1.10.0
-Barebones Share Buttons | 0.2.0
 
 ## 2. Validating JavaScript
 
 All JavaScript written for finder.com.au must pass strict JSHint rules. These rules can be found in the [project boilerplate]().
 
 ## 3. Naming conventions
+
+Ensure that your code is written in a way that is friendly to humans. All JavaScript will be uglified, which will optimise most variables to conserve bandwidth.
 
 1. use camelCase
 2. write all names in English
@@ -40,12 +48,12 @@ function query( selector ) {
   return document.querySelectorAll( selector );
 }
 
-var idx = 0,
+var idx,
   elements = [],
   matches = query("#foo"),
   length = matches.length;
 
-for ( ; idx < length; idx++ ) {
+for (idx = 0; idx < length; idx++ ) {
   elements.push( matches[ idx ] );
 }
 ```
