@@ -2,7 +2,7 @@
 
 The following document outlines a how developers at finder.com.au write CSS to ensure all work is reliable and consistent.
 
-We are inspired by projects like [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and [CSS Guidelines](http://cssguidelin.es/) and [BEM](https://en.bem.info/).
+We are inspired by resources like [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and [CSS Guidelines](http://cssguidelin.es/) and [BEM](https://en.bem.info/).
 
 This is a living document and new ideas are always welcome. Please contribute.
 

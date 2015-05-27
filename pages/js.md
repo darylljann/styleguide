@@ -2,7 +2,7 @@
 
 The following document outlines a how developers at finder.com.au write JavaScript to ensure all work is reliable and consistent.
 
-We are inspired by projects like [Idiomatic JS](https://github.com/rwaldron/idiomatic.js/) and [JSLint](http://jslint.com/).
+We are inspired by resources like [Idiomatic JS](https://github.com/rwaldron/idiomatic.js/), [Eloquent Javascript](http://eloquentjavascript.net/) and [JSLint](http://jslint.com/).
 
 This is a living document and new ideas are always welcome. Please contribute.
 
