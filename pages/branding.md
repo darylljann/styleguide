@@ -1,4 +1,4 @@
-# Branding
+# Branding Guidelines
 
 ## Table of contents
 1. [General principles](#general-principles)
