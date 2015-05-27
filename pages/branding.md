@@ -1,20 +1,23 @@
 # Branding
 
 ## Table of contents
-1. [Principles](#principles)
-1. [What colours should I use?](#colours)
-2. [What fonts should I use?](#font-type)
-3. [What font sizes should I use?](#font-sizes)
-4. [What font weights should I use?](#font-weights)
-5. [Examples](#examples)
+1. [General principles](#general-principles)
+2. [Colours](#colours)
+3. [Typefaces](#font-type)
+4. [Size of text](#font-sizes)
+5. [Weight of text](#font-weights)
+6. [Logo](#logo)
+7. [Forms](#forms)
+8. [Graphs](#graphs)
+9. [Examples](#examples)
 
-<a name="principles"></a>
-## Principles
+<a name="general-principles"></a>
+## 1. General principles
 * We use [flat design](http://www.hongkiat.com/blog/flat-design-resources/) elements as part of our design aesthetics
 * Do not use gradients
 
 <a name="colours"></a>
-## What colours should I use?
+## 2. Colours
 
 We have two brand colours. These should be used sparingly and not be used in very large blocks of colours.
 
@@ -61,7 +64,7 @@ Colour | Name | Hex | Used in
 ![](../images/d14.png) | Crimson | #d14 | Giving emphasis
 
 <a name="font-type"></a>
-## What fonts should I use?
+## 3. Typefaces
 
 We use [Proxima Nova](http://www.marksimonson.com/fonts/view/proxima-nova) for all of our text and headings.
 
@@ -75,7 +78,7 @@ body {
 ```
 
 <a name="font-sizes"></a>
-## What font sizes should I use?
+## 4. Text size
 
 Element | Size
 --- | ---
@@ -88,7 +91,7 @@ h5 | 1.2em
 h6 | 1em
 
 <a name="font-weights"></a>
-## What font weights should I use?
+## 5. Text weight
 
 Weight | Value
 --- | ---
@@ -96,8 +99,23 @@ normal | 400
 semibold | 600
 bold | 600
 
+<a name="logo"></a>
+## 6. Logo
+
+TBC
+
+<a name="forms"></a>
+## 7. Forms
+
+TBC
+
+<a name="graphs"></a>
+## 8. Graphs
+
+TBC
+
 <a name="examples"></a>
-## UI Examples
+## 9. Examples
 
 ### Borders
 
