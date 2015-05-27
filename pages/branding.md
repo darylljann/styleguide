@@ -123,9 +123,8 @@ TBC
 
 ### Borders
 
-![](./images/border-good.png)
+![](./images/border-good.png) ![](./images/border-good.png)
 
-![](./images/border-bad.png)
 
 ```css
 selector {
