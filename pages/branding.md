@@ -58,7 +58,7 @@ Colour | Name | Hex | Used in
 --- | --- | --- | ---
 ![](../images/dd4b39.png) | Red | #dd4b39 | Error messages
 ![](../images/fc0.png) | Yellow | #fc0 | Warning messages
-![](../images/d14.png) | Crimson | #d14 | Givig emphasis
+![](../images/d14.png) | Crimson | #d14 | Giving emphasis
 
 <a name="font-type"></a>
 ## What fonts should I use?
