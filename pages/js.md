@@ -48,12 +48,12 @@ function query( selector ) {
   return document.querySelectorAll( selector );
 }
 
-var idx = 0,
+var idx,
   elements = [],
   matches = query("#foo"),
   length = matches.length;
 
-for ( ; idx < length; idx++ ) {
+for (idx = 0; idx < length; idx++ ) {
   elements.push( matches[ idx ] );
 }
 ```
