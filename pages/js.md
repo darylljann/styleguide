@@ -2,16 +2,28 @@
 
 The following document outlines a how developers at finder.com.au write JavaScript to ensure all work is reliable and consistent.
 
+We are inspired by projects like [Idiomatic JS](https://github.com/rwaldron/idiomatic.js/) and [JSLint](http://jslint.com/).
+
 This is a living document and new ideas are always welcome. Please contribute.
 
 ## Table of contents
 
-1. [Supported Libraries](#supported-libraries)
-2. [Validation](#validation)
-3. [Naming Conventions](#naming-conventions)
-4. [Testing](#testing)
+1. [General principles](#general-principles)
+2. [Supported Libraries](#supported-libraries)
+3. [Validation](#validation)
+4. [Naming Conventions](#naming-conventions)
+5. [Testing](#testing)
 
-## 1. Supported libraries
+<a name="general-principles"></a>
+## 1. General principles
+
+* JavaScript must be validated using JSHint
+* Avoid using globals where ever possible
+* Use Bower to import third party dependancies (eg. jquery, charts etc.) or store them inside a `/vendor` folder
+* If you have multiple JavaScript files, you must combine and minify them into one to improve performance and reduce additional http requests.
+* All code names, descriptions and comments must be in English.
+
+## 2. Supported libraries
 
 Name | Version
 --- | --- 
@@ -21,11 +33,11 @@ Handlebars | 1.3.0
 jQuery | 1.7.2
 jQuery Validation | 1.10.0
 
-## 2. Validating JavaScript
+## 3. Validating JavaScript
 
 All JavaScript written for finder.com.au must pass strict JSHint rules. These rules can be found in the [project boilerplate]().
 
-## 3. Naming conventions
+## 4. Naming conventions
 
 Ensure that your code is written in a way that is friendly to humans. All JavaScript will be uglified, which will optimise most variables to conserve bandwidth.
 
@@ -58,6 +70,6 @@ for (idx = 0; idx < length; idx++ ) {
 }
 ```
 
-## 4. Testing
+## 5. Testing
 
 Unit tests should use Jasmine. An example can be found in the [project boilerplate](https://github.com/finderau/project-boilerplate)

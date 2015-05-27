@@ -2,6 +2,8 @@
 
 The following document outlines a how developers at finder.com.au write CSS to ensure all work is reliable and consistent.
 
+We are inspired by projects like [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and [CSS Guidelines](http://cssguidelin.es/) and [BEM](https://en.bem.info/).
+
 This is a living document and new ideas are always welcome. Please contribute.
 
 ## Table of contents
@@ -22,8 +24,9 @@ This is a living document and new ideas are always welcome. Please contribute.
   understandable.
 * All code in any code-base should look like a single person typed it, even
   when many people are contributing to it.
-* If in doubt when deciding upon a style use existing, common patterns.
-
+* If in doubt when deciding upon a style use existing, common patterns (e.g. Media Object).
+* If you have multiple style sheets, you must combine and minify them into one to improve performance and reduce additional http requests.
+* All code names, descriptions and comments must be in English.
 
 <a name="whitespace"></a>
 ## 2. Whitespace
