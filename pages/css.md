@@ -1,4 +1,4 @@
-# CSS guidelines
+# CSS Guidelines
 
 The following document outlines a how developers at finder.com.au write CSS to ensure all work is reliable and consistent.
 
