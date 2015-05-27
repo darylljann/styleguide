@@ -20,42 +20,45 @@ We have two brand colours. These should be used sparingly and not be used in ver
 
 ### Brand Colours
 
-Name | Colour (Hex) | Used in
---- | --- | ---
-Primary | #1591fe | Icons, highlight
-Secondary | #18304b | Main headings, navigation, icons
+Colour | Name | Hex | Used in
+--- | --- | --- | ---
+![](../images/1591fe.png) | Primary | #1591fe |Icons, highlight
+![](../images/18304b.png) | Secondary | #18304b | Main headings, navigation, icons
 
 ### Grey tones
 For consistency, we try to use these greyscale values throughout our interfaces.
 
-Name | Colour (Hex) | Used in
---- | --- | ---
-Body | #010101 | Body content
-Disclaimers | #777 | Disclaimers
-Box 1 | #e5e5e5 | Boxes
-Box 2 | #f5f5f5 | Boxes
+Colour | Name | Hex | Used in
+--- | --- | --- | ---
+![](../images/010101.png) | Body | #010101 | Body content
+![](../images/777.png) | Disclaimers | #777 | Disclaimers
+![](../images/e5e5e5.png) | Box 1 | #e5e5e5 | Boxes
+![](../images/f5f5f5.png) | Box 2 | #f5f5f5 | Boxes
 
 ### Call to Action
 
-Name | Colour (Hex) | Used in
---- | --- | ---
-Green | #27ae60 | Primary call to action buttons
-Orange | #f17935 | Text links, hover state and  more info buttons
+Colour | Name | Hex | Used in
+--- | --- | --- | ---
+![](../images/27ae60.png) | Green | #27ae60 | Primary call to action buttons
+![](../images/f17935.png) | Orange | #f17935 | Text links, hover state and  more info buttons
 
 
 ### Blue tones
 
-Light blue | e6f3ff | Backgrounds when more prominence is needed vs a grey background
-Mid blue | #d0e9ff | Dividing lines on light blue background, froms and tooltips 
-Dark blue | #0076cc | Links and comparison tables
+Colour | Name | Hex | Used in
+--- | --- | --- | ---
+![](../images/e6f3ff.png) | Light blue | e6f3ff | Backgrounds when more prominence is needed vs a grey background
+![](../images/d0e9ff.png) | Mid blue | #d0e9ff | Dividing lines on light blue background, froms and tooltips 
+![](../images/0076cc.png) | Dark blue | #0076cc | Links and comparison tables
 
 ### System
 These are not part of our brand, but we use these in special cases.
 
-Name | Colour (Hex) | Used in
---- | --- | ---
-Red | #dd4b39 | Error messages
-Yellow | #dd4b39 | Warning messages
+Colour | Name | Hex | Used in
+--- | --- | --- | ---
+![](../images/dd4b39.png) | Red | #dd4b39 | Error messages
+![](../images/fc0.png) | Yellow | #fc0 | Warning messages
+![](../images/d14.png) | Crimson | #d14 | Givig emphasis
 
 <a name="font-type"></a>
 ## What fonts should I use?
@@ -102,7 +105,7 @@ Good | Off-brand
 
 ```
 selector {
-	border: 1px solid #d8d8d8;
+  border: 1px solid #d8d8d8;
 }
 ```
 
@@ -134,9 +137,7 @@ Good | Off-brand
 #### Inactive tab
 ``` css
 .inactive-tab {
-    background-color: #e5e5e5;
-    padding: 8px 15px;
-    position: relative;
+  background-color: #e5e5e5;
 }
 ```
 
