@@ -111,6 +111,8 @@ selector {
 Good | Off-brand
 --- | ---
 ![](../images/icon-01-good.png) | ![](../images/icon-01-off.png)
+![](../images/icon-02-good.png) | ![](../images/icon-02-off.png)
+![](../images/icon-03-good.png) | ![](../images/icon-03-off.png)
 
 ### Tabs
 Good | Off-brand
