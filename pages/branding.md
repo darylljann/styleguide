@@ -1,11 +1,15 @@
 # Branding
 
+## Table of contents
+1. [Principles](#principles)
 1. [What colours should I use?](#colours)
-2. [What fonts should I use?](#fonts)
-3. [What font sizes should I use?](#sizes)
-4. [What font weights should I use?](#weights)
+2. [What fonts should I use?](#font-type)
+3. [What font sizes should I use?](#font-sizes)
+4. [What font weights should I use?](#font-weights)
 5. [Examples](#examples)
 
+<a name="principles"></a>
+## Principles
 * We use [flat design](http://www.hongkiat.com/blog/flat-design-resources/) elements as part of our design aesthetics
 * Do not use gradients
 
@@ -53,7 +57,7 @@ Name | Colour (Hex) | Used in
 Red | #dd4b39 | Error messages
 Yellow | #dd4b39 | Warning messages
 
-<a name="fonts"></a>
+<a name="font-type"></a>
 ## What fonts should I use?
 
 We use [Proxima Nova](http://www.marksimonson.com/fonts/view/proxima-nova) for all of our text and headings.
@@ -65,7 +69,7 @@ body {
 }
 ```
 
-<a name="sizes"></a>
+<a name="font-sizes"></a>
 ## What font sizes should I use?
 
 Element | Size
@@ -78,7 +82,7 @@ h4 | 1.4em
 h5 | 1.2em
 h6 | 1em
 
-<a name="weights"></a>
+<a name="font-weights"></a>
 ## What font weights should I use?
 
 Weight | Value
@@ -88,5 +92,18 @@ semibold | 600
 bold | 600
 
 <a name="examples"></a>
-## Examples
+## UI Examples
 
+### Iconography
+
+Good | Off-brand
+--- | ---
+![](../images/icon-01-good.png) | ![](../images/icon-01-off.png)
+![](../images/icon-02-good.png) | ![](../images/icon-02-off.png)
+![](../images/icon-03-good.png) | ![](../images/icon-03-off.png)
+
+### Tables
+
+Good | Off-brand
+--- | ---
+![](../images/table-good.png) | ![](../images/table-off.png)
