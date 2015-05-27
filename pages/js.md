@@ -81,12 +81,12 @@ for (idx = 0; idx < length; idx++ ) {
 If you're JavaScript functionality need to search for DOM elements to initilise against use a class that is prefixed with `js-`. Classes prefixed with `js-` should only be used by JavaScript and never styled against. This ensures that JavaScript functionality is seperate from the design and layout.
 
 ### Bad
-```
+```javascript
 $('.widget').tableWidget();
 ```
 
 ### Good
-```
+```javascript
 $('.js-widget').tableWidget();
 ```
 <a name="testing"></a>

@@ -102,6 +102,10 @@ bold | 600
 <a name="logo"></a>
 ## 6. Logo
 
+The company logo is an important and valued graphic element and must be used
+consistently and appropriately, even minor variations will undermine and compromise
+the image of the branding.
+
 TBC
 
 <a name="forms"></a>
