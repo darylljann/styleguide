@@ -11,7 +11,7 @@ We have two brand colours. These should be used sparingly and not be used in ver
 
 Name | Colour (Hex) | Used in
 --- | --- | ---
-Primary | #1591fe | Icons, highlight ![]()
+Primary | #1591fe | Icons, highlight
 Secondary | #18304b | Main headings, navigation, icons
 
 ### Grey tones
@@ -69,3 +69,14 @@ h3 | 1.6em
 h4 | 1.4em
 h5 | 1.2em
 h6 | 1em
+
+## What font weights should I use?
+
+Weight | Value
+--- | ---
+normal | 400
+semibold | 600
+bold | 600
+
+## Examples
+
