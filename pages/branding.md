@@ -134,9 +134,7 @@ selector {
 ![](./images/icons-good.png) ![](./images/icons-bad.png)
 
 ### Tabs
-Good | Off-brand
---- | ---
-![](../images/tabs-good.png) | ![](../images/tabs-off.png)
+![](./images/tabs-good.png) ![](./images/tabs-bad.png)
 
 #### Active tab
 ```css
