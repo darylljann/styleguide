@@ -256,7 +256,10 @@ btn {
 <a name="graphs"></a>
 ## 8. Graphs
 
+Do not use gradients. Use flat colours for graphs and charts.
+
 ![](./images/graph-good.png) ![](./images/graph-bad.png)
+![](./images/graph-2-good.png) ![](./images/graph-2-bad.png)
 
 <a name="examples"></a>
 ## 9. Examples
