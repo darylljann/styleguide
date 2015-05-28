@@ -258,7 +258,7 @@ All Scss code should be validated using Scss Lint. An example can be found in th
 <a name="example"></a>
 ## 8. Practical example
 
-An example of various conventions.
+An example of various conventions, please note that this example is for illustration purposes only and is not designed to be used in a project.
 
 ```css
 /* ==========================================================================
@@ -274,9 +274,9 @@ An example of various conventions.
  * Example HTML:
  *
  * <div class="grid">
- *     <div class="cell cell-3"></div>
- *     <div class="cell cell-3"></div>
- *     <div class="cell cell-3"></div>
+ *     <div class="cell cell--3"></div>
+ *     <div class="cell cell--3"></div>
+ *     <div class="cell cell--3"></div>
  * </div>
  */
 
@@ -298,7 +298,7 @@ An example of various conventions.
 /**
  * Grid cells
  *
- * No explicit width by default. Extend with `.cell-n` classes.
+ * No explicit width by default. Extend with `.cell--n` modifier classes.
  *
  * 1. Set the inter-cell spacing
  * 2. Reset white-space inherited from `.grid`
@@ -324,14 +324,14 @@ An example of various conventions.
   background-color: #fffdec;
 }
 
-/* Cell dimensions
+/* Cell dimension modifiers
    ========================================================================== */
 
-.cell-1 { width: 10%; }
-.cell-2 { width: 20%; }
-.cell-3 { width: 30%; }
-.cell-4 { width: 40%; }
-.cell-5 { width: 50%; }
+.cell--1 { width: 10%; }
+.cell--2 { width: 20%; }
+.cell--3 { width: 30%; }
+.cell--4 { width: 40%; }
+.cell--5 { width: 50%; }
 
 /* Cell modifiers
    ========================================================================== */
