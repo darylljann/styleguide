@@ -130,6 +130,20 @@ selector {
 }
 ```
 
+### Buttons
+
+![](./images/buttons-good.png) ![](./images/buttons-bad.png)
+
+```css
+  selector {
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0,0,0.15);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+```
+
 ### Iconography
 ![](./images/icons-good.png) ![](./images/icons-bad.png)
 
