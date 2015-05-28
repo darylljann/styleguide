@@ -297,7 +297,7 @@ Where possible icons should use a vector format, either an icon font or SVG with
 ```css
 .tab--inactive {
   background-color: #e5e5e5;
-   color: #18304b;
+  color: #18304b;
 }
 ```
 
