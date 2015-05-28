@@ -117,7 +117,7 @@ the image of the branding.
 ``` css
 label {
   display: block
-  font-size: .867; /* 13px */
+  font-size: .867em; /* 13px */
   font-weight: 600;
 }
 ```
@@ -126,7 +126,7 @@ label {
 ![](./images/text-inputs.png)
 
 ``` css
-inputp[type="text"] {
+input[type="text"] {
   background: #fff;
   border: 1px solid #d8d8d8;
   border-radius: 4px;
@@ -178,7 +178,7 @@ select {
 .error {
     color: #dd4b39;
     display: block;
-    font-size: .86667em;
+    font-size: .867em;
 }
  
 .error-input {
@@ -188,7 +188,7 @@ select {
 
 ### Sliders
 
-![](./images/fieldsets.png)
+![](./images/sliders.png)
 
 ``` css
 .slider {
@@ -200,7 +200,7 @@ select {
   height: 10px;
 }
  
-.slider-handle {
+.slider__handle {
   background-color: #1591fe;
   background-repeat: repeat-x;
   border-radius: 20px;
@@ -215,7 +215,7 @@ select {
 ![](./images/buttons-good.png) ![](./images/buttons-bad.png)
 
 ```css
-btn {
+.btn {
   border-radius: 4px;
   box-shadow: 0 2px 2px rgba(0,0,0.15);
   color: #fff;
@@ -232,22 +232,22 @@ btn {
 ![](./images/btn-lrg.png)
 
 ``` css
-.btn-xsml {
-  font-size: .733em; /* 11px */
-  padding: 1em 2.3em;
-}
-
-.btn-sml {
-  font-size: .867em; /* 13px */
-  padding: .4em 1.8em;
-}
-
 .btn {
   font-size: 1em; /* 15px */
   padding: .75em 1em;
 }
 
-.btn-lrg {
+.btn--xsml {
+  font-size: .733em; /* 11px */
+  padding: 1em 2.3em;
+}
+
+.btn--sml {
+  font-size: .867em; /* 13px */
+  padding: .4em 1.8em;
+}
+
+.btn--lrg {
   font-size: 1.2em /* 18 */
   padding: 1em 2.3em;
 }
@@ -274,6 +274,8 @@ selector {
 ```
 
 ### Iconography
+
+Where possible icons should use a vector format, either an icon font or SVG with PNG fallback for IE8.
 ![](./images/icons-good.png) ![](./images/icons-bad.png)
 
 ### Tabs
@@ -281,9 +283,9 @@ selector {
 
 #### Active tab
 ```css
-.active-tab {
+.tab--active {
   background-color: #fff;
-  color: #18304b;
+  color: #0076cc;
   font-size: 14px;
   font-weight: 600;
   padding: 8px 15px;
@@ -293,8 +295,9 @@ selector {
 
 #### Inactive tab
 ```css
-.inactive-tab {
+.tab--inactive {
   background-color: #e5e5e5;
+   color: #18304b;
 }
 ```
 
@@ -317,7 +320,7 @@ selector {
 }
  
 /* Tooltip down arrow using css triangles */
-.tooltip-down-arrow {
+.tooltip::after {
   border-bottom-color: #d0e9ff; /* mid-blue */
   border-width: 0 10px 10px;
 }
