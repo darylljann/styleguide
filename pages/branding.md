@@ -106,7 +106,7 @@ The company logo is an important and valued graphic element and must be used
 consistently and appropriately, even minor variations will undermine and compromise
 the image of the branding.
 
-![](./images/logo-good.png) ![](./images/logo-bad.png)
+TBC
 
 <a name="forms"></a>
 ## 7. Forms
@@ -135,12 +135,41 @@ selector {
 ![](./images/buttons-good.png) ![](./images/buttons-bad.png)
 
 ```css
-  selector {
+selector {
   border-radius: 4px;
   box-shadow: 0 2px 2px rgba(0,0,0.15);
   color: #fff;
   font-weight: 600;
   text-align: center;
+}
+```
+
+### Sizes
+
+![](./images/btn-xsml.png)
+![](./images/btn-sml.png)
+![](./images/btn-default.png)
+![](./images/btn-lrg.png)
+
+``` css
+.btn-xsml {
+  font-size: .733em; /* 11px */
+  padding: 1em 2.3em;
+}
+
+.btn-sml {
+  font-size: .867em; /* 13px */
+  padding: .4em 1.8em;
+}
+
+.btn {
+  font-size: 1em; /* 15px */
+  padding: .75em 1em;
+}
+
+.btn-lrg {
+  font-size: 1.2em /* 18 */
+  padding: 1em 2.3em;
 }
 ```
 
@@ -171,4 +200,6 @@ selector {
 
 ### Tables
 
-![](./images/table-good.png) ![](./images/table-bad.png)
+Good | Off-brand
+--- | ---
+![](../images/table-good.png) | ![](../images/table-off.png)
