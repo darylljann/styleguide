@@ -106,7 +106,7 @@ The company logo is an important and valued graphic element and must be used
 consistently and appropriately, even minor variations will undermine and compromise
 the image of the branding.
 
-![](./images/logo-good.png) ![](./images/logo-bad.png)
+TBC
 
 <a name="forms"></a>
 ## 7. Forms
@@ -199,7 +199,6 @@ selector {
 ```
 
 ### Tables
-<<<<<<< HEAD
 
 Good | Off-brand
 --- | ---
@@ -225,6 +224,3 @@ Good | Off-brand
   border-width: 0 10px 10px;
 }
 ```
-=======
-![](./images/table-good.png) ![](./images/table-bad.png)
->>>>>>> ca083f87d43a83297c59e665c69e6ea5b01eaed5
