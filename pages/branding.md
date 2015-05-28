@@ -51,7 +51,7 @@ Colour | Name | Hex | Used in
 Colour | Name | Hex | Used in
 --- | --- | --- | ---
 ![](./images/e6f3ff.png) | Light blue | e6f3ff | Backgrounds when more prominence is needed vs a grey background
-![](./images/d0e9ff.png) | Mid blue | #d0e9ff | Dividing lines on light blue background, froms and tooltips 
+![](./images/d0e9ff.png) | Mid blue | #d0e9ff | Dividing lines on light blue background, forms and tooltips 
 ![](./images/0076cc.png) | Dark blue | #0076cc | Links and comparison tables
 
 ### System
