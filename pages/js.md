@@ -14,6 +14,7 @@ This is a living document and new ideas are always welcome. Please contribute.
 4. [Naming Conventions](#naming-conventions)
 5. [Initialising](#initialising)
 6. [Testing](#testing)
+7. [Data formats](#data-formats)
 
 <a name="general-principles"></a>
 ## 1. General principles
@@ -93,3 +94,8 @@ $('.js-widget').tableWidget();
 ## 6. Testing
 
 Unit tests should use Jasmine. An example can be found in the [project boilerplate](https://github.com/finderau/project-boilerplate)
+
+<a name="data-formats"></a>
+## 7. Data Formats
+
+If you are using data external to the page we prefer the format to be JSON rather than XML. JSON is quicker and easier to parse.

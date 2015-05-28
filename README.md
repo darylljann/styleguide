@@ -1,4 +1,5 @@
-# finder.com.au front-end styleguide
+![](./pages/images/logo.png)
+# Front-end Styleguide
 
 This document contains guidelines for web pages built by finder.com.au and developers who work with us.
 

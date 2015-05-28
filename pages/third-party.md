@@ -13,7 +13,7 @@ To ensure that your CSS doesn't clash with CSS on finder.com.au we recommend tha
 ### Bad 
 
 This is bad as it is the same classname used by finder.com.au buttons and links.
-```
+```css
 .btn {
   
 }
@@ -21,7 +21,7 @@ This is bad as it is the same classname used by finder.com.au buttons and links.
 
 ### Good
 We now know this is a third party implementation of a button.
-```
+```css
 .tui-btn {
 	
 }
