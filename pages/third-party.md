@@ -1,4 +1,4 @@
-# Extra information for third party developers
+# Important information for third party developers
 
 ## Table of contents
 
