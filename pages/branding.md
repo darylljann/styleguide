@@ -256,7 +256,7 @@ btn {
 <a name="graphs"></a>
 ## 8. Graphs
 
-TBC
+![](./images/graph-good.png) ![](./images/graph-bad.png)
 
 <a name="examples"></a>
 ## 9. Examples
