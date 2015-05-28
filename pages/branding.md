@@ -199,4 +199,4 @@ selector {
 ```
 
 ### Tables
-![](./images/table-good.png) ![](./images/table-off.png)
+![](./images/table-good.png) ![](./images/table-bad.png)
