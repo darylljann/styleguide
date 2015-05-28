@@ -111,22 +111,102 @@ the image of the branding.
 <a name="forms"></a>
 ## 7. Forms
 
-TBC
+### Labels
+![](./images/labels.png)
 
-<a name="graphs"></a>
-## 8. Graphs
+``` css
+label {
+  display: block
+  font-size: .867; /* 13px */
+  font-weight: 600;
+}
+```
 
-TBC
+### Text Inputs
+![](./images/text-inputs.png)
 
-<a name="examples"></a>
-## 9. Examples
-
-### Borders
-![](./images/borders-good.png) ![](./images/borders-bad.png)
-
-```css
-selector {
+``` css
+inputp[type="text"] {
+  background: #fff;
   border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #e5e5e5 inset;
+  color: #777;
+  padding: .5em;
+}
+```
+
+### Fieldsets
+
+Used to group form elements
+
+![](./images/fieldsets.png)
+
+``` css
+fieldset {
+  border: 0;
+}
+ 
+/* If form has more than one fieldset, add class to show a mid-blue bottom border */
+fieldset.form_divider {
+  border-bottom: 1px solid #d0e9ff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+```
+
+### Dropdowns
+
+![](./images/dropdowns.png)
+
+``` css
+select {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #e5e5e5 inset;
+  color: #777;
+  padding: .5em;
+}
+```
+
+### Errors
+
+![](./images/errors.png)
+
+```
+.error {
+    color: #dd4b39;
+    display: block;
+    font-size: .86667em;
+}
+ 
+.error-input {
+    border: 1px solid #dd4b39;
+}
+```
+
+### Sliders
+
+![](./images/fieldsets.png)
+
+``` css
+.slider {
+  background-color: #e5e5e5; /* Fallback */
+  background-image: linear-gradient(top, #e5e5e5, #eee);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  height: 10px;
+}
+ 
+.slider-handle {
+  background-color: #1591fe;
+  background-repeat: repeat-x;
+  border-radius: 20px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);
+  height: 20px;
+  width: 20px;
 }
 ```
 
@@ -135,7 +215,7 @@ selector {
 ![](./images/buttons-good.png) ![](./images/buttons-bad.png)
 
 ```css
-selector {
+btn {
   border-radius: 4px;
   box-shadow: 0 2px 2px rgba(0,0,0.15);
   color: #fff;
@@ -144,7 +224,7 @@ selector {
 }
 ```
 
-### Sizes
+#### Sizes
 
 ![](./images/btn-xsml.png)
 ![](./images/btn-sml.png)
@@ -170,6 +250,23 @@ selector {
 .btn-lrg {
   font-size: 1.2em /* 18 */
   padding: 1em 2.3em;
+}
+```
+
+<a name="graphs"></a>
+## 8. Graphs
+
+TBC
+
+<a name="examples"></a>
+## 9. Examples
+
+### Borders
+![](./images/borders-good.png) ![](./images/borders-bad.png)
+
+```css
+selector {
+  border: 1px solid #d8d8d8;
 }
 ```
 
