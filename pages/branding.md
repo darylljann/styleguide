@@ -68,7 +68,7 @@ Colour | Name | Hex | Used in
 
 We use [Proxima Nova](http://www.marksimonson.com/fonts/view/proxima-nova) for all of our text and headings.
 
-![](../images/proxima.png)
+![](images/proxima.png)
 
 ### Alternative to Proxima Nova
 ```css
@@ -127,6 +127,20 @@ TBC
 ```css
 selector {
   border: 1px solid #d8d8d8;
+}
+```
+
+### Buttons
+
+![](./images/buttons-good.png) ![](./images/buttons-bad.png)
+
+```css
+  selector {
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0,0,0.15);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
 }
 ```
 
