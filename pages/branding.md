@@ -199,7 +199,4 @@ selector {
 ```
 
 ### Tables
-
-Good | Off-brand
---- | ---
-![](../images/table-good.png) | ![](../images/table-off.png)
+![](./images/table-good.png) ![](./images/table-off.png)
