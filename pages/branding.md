@@ -106,7 +106,7 @@ The company logo is an important and valued graphic element and must be used
 consistently and appropriately, even minor variations will undermine and compromise
 the image of the branding.
 
-TBC
+![](./images/logo-good.png) ![](./images/logo-bad.png)
 
 <a name="forms"></a>
 ## 7. Forms
