@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [Browsers](#browsers)
-2. [Responsive](#responsive)
+2. [Responsive Web Design](#responsive)
 3. [Cross browser compatibilty](#cross-browser)
 
 
@@ -21,7 +21,7 @@ Android Chrome | Two versions previous
 
 
 <a name="responsive"></a>
-## Responsive
+## Responsive Web Design
 
 Building a responsive or mobile-friendly project is a massive topic on its own, and because a lot of good resources are already online, we’ll just provide some pointers.
 
