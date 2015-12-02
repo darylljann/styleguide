@@ -13,7 +13,7 @@ Name | Min Version
 --- | --- 
 Chrome | Two versions previous
 FireFox | Two versions previous
-Internet Explorer | IE8+
+Internet Explorer | IE9+
 Safari Desktop | 8+
 iOS | iOS7+
 Android | 4.1+
